@@ -1,0 +1,165 @@
+
+#header {
+	position: relative;
+	height: 157px;
+	width: 960px;
+	margin: 0px auto;
+	z-index: 2000;
+}
+#header #logo {
+	height: 83px;
+	left: 15px;
+	position: absolute;
+	top: 7px;
+	width: 709px;
+}
+/* HEADER SHADOW
+==============================================================================*/
+#boxShadow {
+	background-image:url(../images/shadow.png);
+	height:8px;
+	left:0;
+	position:absolute;
+	top:157px;
+	width:100%;
+	z-index:300;
+}
+/* CONTENT
+==============================================================================*/
+#content {
+	width: 960px;
+	margin: 15px auto 30px auto;
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	min-height: 400px;
+	z-index: 1000;
+}
+#component {
+	margin: 0px 15px;
+}
+
+
+/* MODULAR LAYOUT
+==============================================================================*/
+.width10{width:10%}
+.width15{width:15%}
+.width18{width:100%}
+.width20{width:20%}
+.width23{width:23%}
+.width25{width:25%}
+.width30{width:30%}
+.width32{width:32%}
+.width33{width:33%}
+.width34{width:34%}
+.width35{width:35%}
+.width40{width:40%}
+.width46{width:46%}
+.width50{width:50%}
+.width54{width:54%}
+.width60{width:60%}
+.width65{width:65%}
+.width67{width:67%}
+.width68{width:68%}
+.width70{width:70%}
+.width75{width:75%}
+.width100{width:100%}
+.last {
+	background: none;
+	margin: 0px;
+}
+.wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+/* FEATURED TOP
+==============================================================================*/
+.featuredSection {
+	background: #E8E8EA url(../images/deep-sea.jpg) repeat;
+	border-bottom: 1px solid #FFFFFF;
+}
+.featuredSection .featuredSection-1 {
+	border-bottom: 1px solid #d1d1d1;
+}
+#top {
+	clear: both;
+	overflow: hidden;
+	padding: 0px 0px 30px 0px;
+}
+#top .module {
+	margin: 0px;	
+}
+
+.boyneMountain {
+	background: url(../images/boyneMountain.png) no-repeat 50% 0%;
+	height: 300px;
+}
+
+/* FOOTER
+==============================================================================*/
+#footerWrapper {
+	clear: both;
+	background: url(../images/footerBg.jpg) repeat-x 0 0;
+	margin: 0px;
+	height: 300px;
+}
+#footer {
+	width: 960px;
+	margin: 0px auto;
+	padding: 20px 0px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+}
+#footerMSU {
+	background-color: #E4E8DE;
+	line-height: 13px;
+}
+#footerMSU img {
+		margin: 15px;
+	}
+#footerMSU p {
+	padding: 15px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #686963;
+}
+#footerMSU p a {
+	color: #686963;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#footerMSU p a:hover {
+	color: #18453B;
+}
+#googleMap {
+	background: #FFF;
+	padding: 1px;
+	border: 1px solid #d1d1d1;	
+}
+.glowGreen {
+	color: #FF0000;
+	font-weight: bold;	
+}
+/* BIG QUOTES DIV
+==============================================================================*/
+div.quotation p {
+    background: url("../images/blockquote_end.png") no-repeat scroll 100% 100% transparent;
+    display: inline;
+    margin: 0 -35px -10px 0;
+    padding: 0 35px 10px 0;
+}
+div.quotation {
+    background: url("../images/blockquote_start.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 10px 0;
+    padding: 10px 35px;
+    text-align: justify;
+}
+div.quotation {
+    font-size: 13px;
+    font-style: italic;
+    line-height: 150%;
+    margin: 10px 0 10px 15px;
+}
+div.quotation {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}

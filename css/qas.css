@@ -1,0 +1,125 @@
+.QAS_Header 
+{ 
+	display: block;
+	padding: 1em;
+	position: relative;
+}
+
+.QAS_Prompt
+{
+	padding-top: 20px;
+	padding-left: 1em;
+	float: left;
+	width: 450px;
+}
+
+.QAS_Input
+{
+	padding: 0em 0em 0.3em;
+	float: left;
+}
+
+.QAS_RightDetails
+{
+	padding-top: 20px;
+	padding-left: 1em;
+	float: right;
+	border-left: 1px solid #aaaab8;
+	width: 300px;
+}
+
+.QAS_RightSidePrompt
+{
+	padding-bottom: .5em;
+}
+
+.QAS_RightSidePromptText
+{
+	padding-bottom: .5em;
+}
+
+.QAS_RightDetails table
+{
+	font-size: .9em;
+}
+.QAS_EditLink
+{
+	font-size: .8em;
+	padding-left: 1em;
+}
+
+.QAS_Picklist
+{
+	padding-top: .5em;
+	padding-left: 1em;
+	width: 450px;
+	float: left;
+	font-size: .9em;
+}
+
+.QAS_DeliverableWarning
+{
+	font-size: .8em;
+	padding-top: .6em;
+}
+
+.QAS_Pick
+{
+	font-size: .9em;
+	display: none;
+	width: 450px;
+	height:200px;
+	overflow:auto;
+}
+
+.QAS_MultPick
+{
+	font-size: .9em;
+	display: none;
+	width: 450px;
+	height:200px;
+	overflow:auto;
+}
+
+.QAS_ShowPick
+{
+	padding-bottom: .6em;
+}
+
+.QAS_Pick table, .QAS_MultPick table
+{
+	font-size: .9em;
+}
+.QAS_Pick table td, .QAS_MultPick table td
+{
+	padding-right: 1.5em;
+}
+
+.QAS_PromptText
+{
+	margin-bottom: .5em;
+}
+
+.QAS_PromptData table
+{
+	background-color: #e0e0ff;
+}
+
+#QAS_RefineText
+{
+	background: #eaecf6;
+	border: 1px solid #aaaab8;
+	width: 100px;
+	margin-right: 1em;
+}
+
+#QAS_RefineBtn, #QAS_AcceptOriginal, #QAS_NoApt
+{
+	padding: .1em 1em;
+}
+
+#QAS_NoApt
+{
+	margin-top: .5em;
+}
+

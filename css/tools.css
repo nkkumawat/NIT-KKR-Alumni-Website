@@ -1,0 +1,289 @@
+a.extLink {
+    background: url("../images/icon_external.png") no-repeat scroll 0px 40% transparent!Important;
+    padding-left: 18px!Important;
+}
+a.pdfLink {
+    background: url("../images/icon_pdf.png") no-repeat scroll 0px 40% transparent;
+    padding-left: 18px;
+}
+a.docLink {
+    background: url("../images/icon_msword.png") no-repeat scroll 0px 40% transparent;
+    padding-left: 18px;
+}
+/*
+.socialShare {
+	position: absolute;
+	right: 0px;
+	top: 0px;	
+}
+*/
+.socialShare {
+	float: right;	
+	margin-left: 10px;
+}
+.googlePlusWidget, .twitterShareWidget, .facebookLikeWidget {
+	float: right;
+	width: 60px;
+}
+/* INFO BOXES
+==============================================================================*/
+div.info, div.alert, div.success, div.tip {
+	color: #5D5D57;
+	margin: 10px 0;
+	padding: 8px 10px 8px 40px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+div.info p, div.alert p, div.success p, div.tip p {
+	margin:0px!Important;
+	padding: 0px;
+}
+div.info {
+	background: #C9D1D8 url(../images/infoIcon.png) no-repeat 7px 5px;
+	border-bottom: 1px solid #BBC1C6;
+	border-top: 1px solid #BBC1C6;
+}
+div.alert {
+	background: #DDC2BA url(../images/alertIcon.png) no-repeat 7px 5px;
+	border-bottom: 1px solid #CCB3AF;
+	border-top: 1px solid #CCB3AF;
+}
+div.success {
+	background: #D1D8C5 url(../images/successIcon.png) no-repeat 7px 5px;
+	border-bottom: 1px solid #C1C6B8;
+	border-top: 1px solid #C1C6B8;
+}
+div.tip {
+	background: #E9D4B4 url(../images/tipIcon.png) no-repeat 7px 5px;
+	border-bottom: 1px solid #D2C3AB;
+	border-top: 1px solid #D2C3AB;
+}
+/* ACTION BUTTON
+==============================================================================*/
+a.btn {
+	background: url(../images/buttonBgRight.png) no-repeat 100% 0;
+	display: inline-block;
+	padding-right: 10px;
+	height: 33px;
+	color: #FFF!Important;
+	margin-bottom: 5px;
+}
+a.btn span {
+	background: url(../images/buttonBgLeft.png) no-repeat 0 0;
+	display: inline-block;
+	padding-left: 10px;
+	line-height: 33px;
+	font-weight: bold!Important;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+} 
+a.btn:hover {
+	background: url(../images/buttonBgRight.png) no-repeat 100% 100%;
+	text-decoration: none!Important;
+}
+a.btn:hover span {
+	background: url(../images/buttonBgLeft.png) no-repeat 0 100%;
+}
+/* LINKS
+==============================================================================*/
+.links {
+	list-style: none outside none;
+    margin: 10px 0;
+}
+.links li {
+	border-bottom: 1px dotted #888;
+}
+.links li a {
+    background: url(../images/shield_green.gif) no-repeat scroll 0 8px transparent;
+	color: #A84000;
+    cursor: pointer;
+    display: block;
+    padding: 2px 2px 2px 14px;
+    text-decoration: none;
+}
+.bottomLink {
+	margin: 0px 10px!Important;
+	padding: 0px;	
+}
+
+/* FORMS
+==============================================================================*/
+.niceForm label {
+	float: left;
+	width: 27%;
+	margin: 10px 0 5px 0;
+	display: inline-block;
+	margin: 0;
+	padding-right: 10px;
+	text-align: right;
+}
+.niceForm label.hide {
+	display: none;	
+}
+.niceForm input {
+	color: #505050;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	width: 200px;
+	border: 1px solid #C8C8C8;
+}
+.niceForm textarea {
+	color: #505050;
+	font-size: 15px;
+	font-weight: normal;
+
+	padding: 5px 5px 5px 5px;
+	width: 300px;
+	min-height: 50px;
+	border: 1px solid #C8C8C8;
+}
+.niceForm input.short {
+	width: 100px;
+}
+.niceForm input.medium {
+	width: 200px;
+}
+.niceForm input.long {
+	width: 300px;
+}
+.niceForm input[type=checkbox], .niceForm input[type=radio] {
+	width: 20px;
+	border: none!Important;
+	background: none!Important;
+}
+.niceForm input[type=checkbox]:hover, .niceForm input[type=radio]:hover {
+	border-color: none!Important;
+}
+.niceForm input[type=checkbox]:focus, .niceForm input[type=radio]:focus {
+	border-color: none!Important;
+	outline: none!Important;
+}
+.niceForm select {
+	color: #505050;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+	padding: 5px;
+	width: 212px;
+	border: 1px solid #C8C8C8;
+}
+.niceForm input:hover, .niceForm select:hover {
+	border-color: #aaaaaa;
+}
+.niceForm input:focus, .niceForm select:focus {
+	border-color: #8c8c8c;
+	outline: 2px solid #dcdcdc;
+}
+#comment{
+	width: 200px;
+}
+
+
+/* ALUMNI GROUPS FORM
+==============================================================================*/
+.eventForm label {
+	padding-right: 5px;
+	width: 150px;
+}
+.eventForm input {
+	font-size: 13px;
+	padding: 3px;
+}
+.eventForm select {
+	font-size: 13px;
+	padding: 3px;
+}
+.eventForm textarea {
+	font-size: 13px;
+	padding: 3px;
+	margin-left: 3px;
+}
+
+form.style fieldset > div > p {
+	font-size: 12px;
+	font-style: italic;	
+}
+
+form.style fieldset > div > label {
+	display: block;
+	width: 250px;
+	float: left;
+	font-weight: bold;
+}
+form.style fieldset > div > label.clean {
+	display: inline-block;
+	width: auto;
+	float: none;
+	margin-right: 5px;
+	font-weight: normal;
+}
+form.style fieldset > div {
+	margin: 10px 0;
+}
+form.style fieldset > div > input[type='text'],
+form.style fieldset > div > input[type='password'] {
+	padding: 5px;
+	width: 250px;
+}
+form.style fieldset > div > input[type='radio'],
+form.style fieldset > div > input[type='checkbox'] {
+	margin: 0px;
+}
+form.style input[type="text"],
+form.style input[type="password"],
+form.style select,
+form.style textarea {
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	color: #888;
+}
+
+form.style input[type="text"]:focus,
+form.style input[type="password"]:focus,
+form.style select:focus,
+form.style textarea:focus {
+	outline: none;
+	color: #444;
+	border-color: #bbb;
+	border-color: rgba(0,0,0,0.35);
+	background-color: rgba(255,255,255,1.0);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+}
+form.style textarea { padding: 8px; }
+form.style a.button { cursor: pointer;}
+form.style button,
+form.style input[type='submit'],
+form.style input[type="button"],
+form.style input.button,
+form.style #submit,
+form.style a.formButton {
+	margin-right: 3px;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-bottom-color: #a2a2a2;
+	border-radius: 2px;
+	background-color: #f3f3f3;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,1.0),
+				0 2px 1px rgba(0,0,0,0.05);
+	color: #777;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+form.style button:hover,
+form.style input[type="button"]:hover,
+form.style input.button:hover,
+form.style input[type='submit']:hover,
+form.style #submit:hover,
+form.style a.formButton:hover {
+	color: #fff;
+	border-color: #1d3632;
+	background-color: #3f5657;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+}

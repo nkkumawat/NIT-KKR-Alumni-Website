@@ -1,0 +1,135 @@
+body {
+	background: #F9F9F7 url(../images/bg_header.gif) repeat-x 0px 0px;
+	color: #333333;
+	font: 13px/23px Arial,Helvetica,sans-serif;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+h1, h3, h5 {
+	color: #FF0000;
+}
+h2, h4, h6 {
+	color: #AA975A;
+}
+h1 small {
+	display: block;
+	font-size: 11px;
+	margin-top: 5px;
+	color: #333333;
+}
+h1 small a {
+	color: #82824B;
+}
+
+h2.newsletter {
+	margin: 10px 0px 10px -15px;
+}
+h3 small {
+	color: #333333;
+	font-size: 14px;
+}
+
+a {
+	color: #D90000;
+	text-decoration: none;
+}
+a:hover {
+	color: #4C834C;
+	text-decoration: underline;
+}
+
+/* LISTS
+==============================================================================*/
+#component ul li {
+	list-style-type: square;
+	margin-bottom: 8px;
+}
+
+#component ul.reunionDays li {
+	list-style-type: square;
+	margin-bottom: 0;
+}
+#component ol li {
+	list-style-type: decimal;
+	margin-bottom: 8px;
+}
+#component ol li ul {
+	list-style-type: square;
+}
+#component ul.links li {
+	list-style-type: none!Important;
+	margin-bottom: 8px;
+}
+
+/* TABLE
+==============================================================================*/
+#component table {
+	width: 100%;
+	margin-bottom: 15px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#component table th {
+	font-size: 12px;
+	text-align: center;
+	background: #FF0000;
+	font-weight: bold;
+	padding: 3px;	
+	color: #FFF;
+}
+#component table td {
+	padding: 3px;	
+}
+
+
+/* tables */
+#component table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	width: 100%;
+	text-align: left;
+	border: none;
+}
+#component table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #E6EED5;
+	border: 1px solid #FFF;
+	font-size: 11px;
+	padding: 4px;
+	color: #333333;
+}
+#component table.tablesorter thead tr .header {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	text-align: left;
+}
+#component table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	font-size: 11px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+#component table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+#component table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/asc.gif);
+}
+#component table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/desc.gif);
+}
+#component table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #dae2ca;
+	color: #333333;
+}

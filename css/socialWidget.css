@@ -1,0 +1,162 @@
+
+#widget {
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background: url("../images/px.gif") repeat-y scroll right top #F4F4F4;
+	border-top: 1px solid #BEBEBE;
+	border-right: 1px solid #BEBEBE;
+	border-bottom: 1px solid #BEBEBE;
+    display: block !important;
+    font: 13px/17px Helvetica,Arial,sans-serif;
+    height: 101px;
+    left: 0;
+    position: fixed;
+    top: 185px;
+    width: 24px;
+    z-index: 1500;
+}
+
+#widget .widgetButton {
+    background-image: url("../images/widgetSprite.png");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #FEFEFE;
+    border-top: 1px solid #E4E4E4;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 31px;
+    text-indent: -9999px;
+    width: 23px;
+}
+#widget .widgetButton.twitter {
+    background-position: -4px 0;
+    border-top: medium none;
+    height: 32px;
+}
+#widget .widgetButton.fbook {
+    background-position: -4px -30px;
+}
+#widget .widgetButton.search {
+    background-position: -4px -60px;
+}
+#widget .widgetButton.feedback {
+    background-position: -4px -90px;
+}
+
+#widgetTwitterWrap {
+	display: none;
+    left: 23px;
+    padding-left: 22px;
+    position: absolute;
+    top: -1px;
+    width: 320px;
+    z-index: 200;
+}
+#widgetTwitterWrap .switcherArrow {
+    left: 18px;
+    top: 15px;
+}
+#widgetFacebookWrap {
+	display: none;
+    left: 23px;
+    padding-left: 22px;
+    position: absolute;
+    top: 25px;
+    width: 320px;
+    z-index: 200;
+}
+#widgetFacebookWrap .switcherArrow {
+    left: 18px;
+    top: 15px;
+}
+#widgetSearchWrap {
+	display: none;
+    left: 23px;
+    padding-left: 22px;
+    position: absolute;
+    top: 65px;
+    width: 320px;
+    z-index: 200;
+}
+#widgetSearchWrap .switcherArrow {
+    left: 18px;
+    top: 15px;
+}
+#widget .switcherArrow {
+    background: url("../images/arrow.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 8px;
+    position: absolute;
+    width: 5px;
+    z-index: 250;
+}
+#widgetTwitter, #widgetFacebook, #widgetSearch {
+    -moz-border-radius: 3px 3px 3px 3px;
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background: url("../images/px.gif") repeat-y scroll center top #F4F4F4;
+    border: 1px solid #BEBEBE;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    z-index: 200;
+	padding: 10px;
+}
+#widgetSearch {
+	width: 200px!Important; 	
+}
+.searchWidgetWrap {
+	background: #FFF;
+	border: 1px solid #d1d1d1;
+	padding: 3px;
+}
+.search-magnifier-widget{
+	border: none;
+    cursor: pointer;
+    float: right;
+    height: 16px;
+    line-height: 0;
+    margin: 0px 4px;
+    padding: 0;
+    width: 16px;
+	background: url(../images/smallMagnifier.png) no-repeat 0 0;
+}
+.search-input-widget {
+	width: 150px;
+	border: none!Important;
+	background: none!Important;
+	color: #666666;
+}
+
+.tweet {
+	font-size: 13px;
+	line-height: 150%;
+}
+.tweet ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.tweet li {
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	background: url(../images/modBoxHeader.png) repeat-x 0% 100%;
+}
+.tweet img {
+	position: absolute;
+	top:0;
+	left:0;
+}
+.tweet a {
+	color: #82824B;
+	text-decoration: none;
+}
+.tweet a:hover {
+	color: #4C834C;
+	text-decoration: underline;
+}
+.tweet span.tweet_text {
+	display: block;
+}

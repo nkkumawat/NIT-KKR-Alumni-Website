@@ -1,0 +1,7 @@
+cd \xampp\mysql\bin
+mysql -uroot mysql
+create table feedback(id int primary key auto_increment,name varchar(30), email varchar(30), feedback varchar(2000), dof datetime); 
+create table member(id int primary key auto_increment,name varchar(50), designation varchar(50), organisation varchar(50), website varchar(50), batch varchar(10),dd varchar(4),mm varchar(15), yyyy varchar(6),landline varchar(50),mobile varchar(50),email varchar(50), facebookid varchar(50),file varchar(50),graduation varchar(50),gbranch varchar(50),pgraduation varchar(50),pbranch varchar(50), jaddress varchar(150),raddress varchar(150),sname varchar(50),sorganisation varchar(50),sdesignation varchar(50),soaddress varchar(50), slandline varchar(50), semail varchar(50), snoc varchar(50), lemail varchar(50), lpass varchar(50)); 
+
+
+insert into member(name,designation,organisation,website,batch,dd,mm,yyyy,landline,mobile,email,facebookid,file,graduation,gbranch,pgraduation,pbranch,jaddress,raddress,sname,sorganisation,sdesignation,soaddress,slandline,semail,snoc,lemail,lpass) values('$_POST[name]','$_POST[designation]','$_POST[organisation]','$_POST[website]','$_POST[batch]','$_POST[dd]','$_POST[mm]','$_POST[yyyy]','$_POST[landline]','$_POST[mobile]','$_POST[email]','$_POST[facebookid]','$fileno','$_POST[graduation]','$_POST[gbranch]','$_POST[pgraduation]','$_POST[pbranch]','$_POST[jaddress]','$_POST[raddress]','$_POST[sname]','$_POST[sorganisation]','$_POST[sdesignation]','$_POST[soaddress]','$_POST[slandline]','$_POST[semail]','$_POST[snoc]','$_POST[lemail]','$_POST[lpass]')
