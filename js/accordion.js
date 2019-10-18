@@ -1,4 +1,4 @@
-
+//Accordian , also used in KIVY Project
 $(document).ready(function() {
 	initMenu();
 	activeMenu();
